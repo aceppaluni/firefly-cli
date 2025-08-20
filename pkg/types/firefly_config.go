@@ -184,4 +184,5 @@ type FireflyConfig struct {
 	Event      *EventConfig         `yaml:"event,omitempty"`
 	Plugins    *Plugins             `yaml:"plugins"`
 	Namespaces *NamespacesConfig    `yaml:"namespaces"`
+	AutoReload bool 				`json:"autoReload" yaml:"autoReload"`
 }
